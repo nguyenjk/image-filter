@@ -1,6 +1,13 @@
 ## Image Filter API
 This is simple api that take image url from query string and return the resized image. Clean up all images from local storage after done processing.
 
+### Setup Node Environment
+
+You'll need to create a new node server. Open a new terminal within the project directory and run:
+
+1. Initialize a new project: `npm i`
+2. run the development server with `npm run dev`
+
 ### How to run
 1.  Image url: https://1.bp.blogspot.com/-1uQRYMklACU/ToQ6aL-5uUI/AAAAAAAAAgQ/9_u0922cL14/s1600/cute-puppy-dog-wallpapers.jpg
 2.  Endpoint url: http://udgram-image-filter-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=
